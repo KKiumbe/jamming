@@ -11,3 +11,79 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* App.css */
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #282c34;
+  color: white;
+}
+
+td {
+  text-align: left;
+}
+
+img {
+  max-width: 100px;
+  height: auto;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+  color: black;
+}
+
+input {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+button {
+  background-color: #f59817; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  display: inline;
+  padding: 50px;
+}
